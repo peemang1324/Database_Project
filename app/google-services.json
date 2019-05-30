@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "519491344707",
+    "firebase_url": "https://snsapp-3afee.firebaseio.com",
+    "project_id": "snsapp-3afee",
+    "storage_bucket": "snsapp-3afee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519491344707:android:6ac18671226d8269",
+        "android_client_info": {
+          "package_name": "com.dannproductions.instaclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519491344707-crkvk9s24egr3uj6tvq018o8saf6tp03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATGYwWbqUB5vfcDJ5AaaANqCu6_yFgb_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519491344707-crkvk9s24egr3uj6tvq018o8saf6tp03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
