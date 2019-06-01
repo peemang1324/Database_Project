@@ -193,23 +193,6 @@ public class EditProfileFragment extends Fragment {
                     //Getting the password for reAuthentication
                     final EditText password = (EditText) view.findViewById(R.id.input_confirm_password);
 
-//                    //Checking if the email already in use
-//                    FirebaseAuth.getInstance().createUserWithEmailAndPassword(Email, passwordStr)
-//                            .addOnCompleteListener(this, task -> {
-//                                loaderLayout.setVisibility(View.GONE);
-//                                if (task.isSuccessful()) {
-//                                    // 성공 했을 경우 UI
-//                                    FirebaseUser user = mAuth.getCurrentUser();
-//                                    showToast(SignUpActivity.this, "회원가입이 완료되었습니다.");
-//                                    myStartActivity(MainActivity.class); //MainActivity로 이동
-//                                } else {
-//                                    // 실패 했을 경우 UI
-//                                    if (task.getException() != null) {
-//                                        showToast(SignUpActivity.this, task.getException().toString());
-//                                    }
-//                                }
-//                            });
-//
 //                    FirebaseAuth.getInstance().fetchProvidersForEmail(Email).addOnCompleteListener(new OnCompleteListener<ProviderQueryResult>() {
 //                        @Override
 //                        public void onComplete(@NonNull Task<ProviderQueryResult> task) {

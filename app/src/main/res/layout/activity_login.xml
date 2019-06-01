@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/icon_splash_bg"
     tools:context=".Login.LoginActivity">
 
     <ScrollView
@@ -28,10 +29,10 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_marginBottom="25dp"
                 android:contentDescription="@string/app_name"
-                app:srcCompat="@drawable/instagram_text_logo" />
+                app:srcCompat="@drawable/main_icon" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -78,7 +79,8 @@
                 android:layout_gravity="center_horizontal"
                 android:padding="2dp"
                 android:textColor="@color/blue"
-                android:text="Don't have an account? Create one" />
+                android:textSize="12dp"
+                android:text="회원가입을 아직 안하셨습니까? 지금 바로 가입하세요" />
 
             <ProgressBar
                 android:id="@+id/login_progress"

@@ -50,16 +50,6 @@ public class RegisterAccountActivity extends AppCompatActivity {
     }
 
 
-
-
-
-
-
-
-
-
-
-
     private boolean isTextFieldEmpty(String text){
 
         return (text.length() == 0);
@@ -100,7 +90,6 @@ public class RegisterAccountActivity extends AppCompatActivity {
                 email = mEmail.getText().toString().toLowerCase().trim();
                 password = mPassword.getText().toString().trim();
                 confirmPassword = mConfirmPassword.getText().toString().trim();
-
 
                 if(!isTextFieldEmpty(userName)&&isEmailValid(email)&&isPasswordValid(password,confirmPassword)) {
 

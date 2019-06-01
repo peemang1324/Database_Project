@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="168dp"
-        android:text="No posts? create your own now."
+        android:text="게시물을 올려주세요."
         android:textSize="25sp"
         android:fontFamily="@font/roboto_light"
         app:layout_constraintEnd_toEndOf="parent"
